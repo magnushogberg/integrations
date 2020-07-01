@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "If.Itc.Integrations.Web", "If.Itc.Integrations.Web\If.Itc.Integrations.Web.csproj", "{D1CD7F27-D3B2-4B9D-A644-C7E2943DE30B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "If.Itc.Integrations.Db", "If.Itc.Integrations.Db\If.Itc.Integrations.Db.sqlproj", "{0046B25E-8119-44CA-B9AC-F533F24B76CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1CD7F27-D3B2-4B9D-A644-C7E2943DE30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CD7F27-D3B2-4B9D-A644-C7E2943DE30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CD7F27-D3B2-4B9D-A644-C7E2943DE30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CD7F27-D3B2-4B9D-A644-C7E2943DE30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0046B25E-8119-44CA-B9AC-F533F24B76CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0046B25E-8119-44CA-B9AC-F533F24B76CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0046B25E-8119-44CA-B9AC-F533F24B76CB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0046B25E-8119-44CA-B9AC-F533F24B76CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0046B25E-8119-44CA-B9AC-F533F24B76CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0046B25E-8119-44CA-B9AC-F533F24B76CB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {668D8391-7002-4B07-A78B-F7552FF7A5B9}
+	EndGlobalSection
+EndGlobal
