@@ -12,7 +12,7 @@ namespace If.Itc.Integrations.Web.Context
         public DbSet<Protocol> Protocols { get; set; }
         public DbSet<Environment> Environments { get; set; }
         public DbSet<Asset> Assets { get; set; }
-
+        public DbSet<SubIntegration> SubIntegrations { get; set; }
 
     }
 }

@@ -26,6 +26,7 @@ namespace If.Itc.Integrations.Web.Context
         public string DataObject { get; set; }
         [DataType(DataType.Text)]
         public string Description { get; set; }
+        public bool IsSubIntegration { get; set; }
         public DateTime Created { get; set; }
         [MaxLength(150)]
         public string CreatedBy { get; set; }
